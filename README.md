@@ -1,1 +1,1 @@
-# WolfImpact
+# Wolf Gang NFT Frontend
