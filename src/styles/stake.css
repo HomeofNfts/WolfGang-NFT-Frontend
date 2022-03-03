@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --color1: #060099;
+    --color2: #C51E52;
+    --color3: #012515;
+    --color4: #427a8b;
+    --color5: #8E9AAF;
+    --color6: linear-gradient(to bottom, #ff5722 0%, #ff6699 100%);
+    --color7: linear-gradient(to bottom, #673ab7 0%, #cc00ff 100%);
+    --white: #FFFFFF;
+    --black: #000000;
+    --font1: 'Boogaloo', sans-serif;
+    --font2: 'Poppins', sans-serif;
+}
+
+@media all and (min-width: 0px) {
+    .stake-app {
+        background: linear-gradient(to bottom, #673ab7 0%, #cc00ff 100%);
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    /* .connect-btn{
+        background: var(--white);
+        font: 1.125rem/1.6rem var(--font1);
+        color: var(--color1);
+        border-radius: 12px;
+        border: none;
+        height: 50px;
+        width: 136px;
+        margin-bottom: 2rem;
+    } */
+    .stake-app h1 {
+        font: 2.5rem/4rem var(--font1);
+        color: var(--white);
+        font-weight: bold;
+    }
+    .stake-app h2 {
+        font: 1.125rem/1.8rem var(--font2);
+        color: var(--white);
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 90%;
+        width: 550px;
+        height: 550px;
+        margin: 0 auto;
+        /* border: 3px solid var(--white); */
+        border-radius: 20px;
+        transition: 0.5s all;
+        background: var(--color6)
+    }
+    .card-container:hover {
+        transform: scale(1.005);
+        transition: 0.5s all;
+    }
+    .btn {
+        background: var(--color7);
+        color: var(--white);
+        font: 1rem/1rem var(--font1);
+        border-radius: 12px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        height: 56px;
+        width: 100%;
+    }
+    .mb-5 {
+        margin: 1rem 0;
+    }
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .form input {
+        height: 56px;
+        max-width: 40%;
+        width: 50%;
+        outline: none;
+        border: none;
+        border-radius: 12px 0 0 12px;
+        font: 1.125rem/1.8rem var(--font2);
+        color: var(--black);
+        text-align: center;
+    }
+    .form button {
+        border-radius: 0 12px 12px 0;
+        height: 56px;
+        width: 50%;
+        margin: 1rem 0;
+    }
+    .form input::placeholder,
+    .form input:focus {
+        padding: 0 0.5rem;
+        font: 0.8rem/1rem var(--font2);
+        color: var(--black)
+    }
+    .card-container div div {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .reward {
+        background: var(--color5);
+        border: 1px solid var(--white);
+        font: 0.8rem/1rem var(--font2);
+        font-weight: 700;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        width: 90%;
+        margin: 0 auto 5px;
+        color: var(--white);
+    }
+    .reward span {
+        padding: 0 0.5rem 0 0;
+    }
+    .stake-app p {
+        margin: 1rem 0 2rem;
+        font: 1rem/1.6rem var(--font2);
+        color: var(--white);
+        font-weight: 500;
+    }
+    .stake {
+        color: #0000;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .form input {
+        width: 55%;
+    }
+    .form button {
+        width: 50%;
+    }
+}

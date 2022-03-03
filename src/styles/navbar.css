@@ -1,0 +1,40 @@
+@import "./stake.css";
+@media all and (min-width: 0px) {
+    .nav-wrap {
+        background: #673ab7;
+        /*var(--color1);*/
+        padding: 25px;
+    }
+    .nav-wrap ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-wrap ul li {
+        margin: 0 1rem;
+    }
+    .nav-wrap ul li a {
+        color: var(--white);
+        font: 2.5rem/4rem var(--font1);
+        text-decoration: none;
+    }
+    .mintbox {
+        background: linear-gradient(to bottom, #ff5722 0%, #ff6699 100%);
+        border-radius: 20px;
+        width: 100px;
+        text-align: center;
+    }
+    .stakebox {
+        background: linear-gradient(to bottom, #ff5722 0%, #ff6699 100%);
+        border-radius: 20px;
+        width: 100px;
+        text-align: center;
+    }
+    .logo {
+        /* background: white; */
+        width: 63px;
+        height: 60px;
+        margin-right: 600px;
+    }
+}
+
+@media all and (min-width: 768px) {}

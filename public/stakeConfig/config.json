@@ -1,0 +1,11 @@
+{
+  "CONTRACT_ADDRESS": "0xD8F152B2bc85Fc3C218d2ee427395E3A50426ff8",
+  "SCAN_LINK": "https://testnet.bscscan.com/address/0xD8F152B2bc85Fc3C218d2ee427395E3A50426ff8",
+  "NETWORK": {
+    "NAME": "BNB Chain",
+    "SYMBOL": "BNB",
+    "ID": 97
+  },
+  "TOKEN_NAME": "Wolfgang Token",
+  "SYMBOL": "WOLF"
+}
