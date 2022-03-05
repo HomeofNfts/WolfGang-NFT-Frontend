@@ -21,12 +21,12 @@ const Navbar = () => {
     return (
         <nav className="nav-wrap">
             <ul>
-            <div className="logo"><img src="https://i.ibb.co/BLz05gQ/image.png" width="63" height="60"/></div>
+            <Link className="logo" to="/"><img src="https://i.ibb.co/dpGjR2C/wolfemoji.png" width="63" height="60"/></Link>
              <li className="mintbox" onClick={(e) => {
                     e.preventDefault();
                     dispatch(connectM());
                 }}>
-                <Link to="/">MINT</Link>
+                <Link to="/mint">MINT</Link>
                 </li>
                 <li className="stakebox"><Link to="/staking">STAKE</Link></li>
             </ul>

@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xf172945902EeE9A1E6AE32552cF56127E9B0C945",
-  "SCAN_LINK": "https://testnet.bscscan.com/token/0xf172945902eee9a1e6ae32552cf56127e9b0c945",
-  "NETWORK": {
-    "NAME": "BNB Chain",
-    "SYMBOL": "BNB",
-    "ID": 97
-  },
-  "NFT_NAME": "WOLF GANG NFT",
-  "SYMBOL": "WOLFGANG",
-  "MAX_SUPPLY": 5000,
-  "WEI_COST": 100000000000000000,
-  "DISPLAY_COST": 0.10,
-  "GAS_LIMIT": 120000,
-  "MARKETPLACE": "Binance Marketplace",
-  "MARKETPLACE_LINK": "https://binancenft.com/wolfgang",
-  "SHOW_BACKGROUND": true
+    "CONTRACT_ADDRESS": "0xf172945902EeE9A1E6AE32552cF56127E9B0C945",
+    "SCAN_LINK": "https://testnet.bscscan.com/token/0xf172945902eee9a1e6ae32552cf56127e9b0c945",
+    "NETWORK": {
+        "NAME": "BNBChain",
+        "SYMBOL": "BNB",
+        "ID": 97
+    },
+    "NFT_NAME": "WOLF GANG NFT",
+    "SYMBOL": "WOLFGANG",
+    "MAX_SUPPLY": 5000,
+    "WEI_COST": 100000000000000000,
+    "DISPLAY_COST": 0.10,
+    "GAS_LIMIT": 120000,
+    "MARKETPLACE": "Binance Marketplace",
+    "MARKETPLACE_LINK": "https://binancenft.com/wolfgang",
+    "SHOW_BACKGROUND": true
 }
