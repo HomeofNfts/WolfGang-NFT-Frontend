@@ -44,7 +44,7 @@
 .container {
     text-align: center;
     font-size: 35px;
-    padding: 0px;
+    padding: 6px;
     font-weight: 600;
     background: -webkit-linear-gradient(#ff5722, #ff6699, #333);
     -webkit-background-clip: text;

@@ -16,7 +16,7 @@ const home = () => {
     </div>
     <div className="hero">
     <div className="svgcont">
-        <img src="https://i.ibb.co/bRbS9Yg/welcome.png" alt="" className="heroimg" />
+        <img src="https://i.ibb.co/TbQfXX0/manvect-removebg-preview.png" alt="" className="heroimg" />
     </div>
     <div className="herotext">
 
@@ -42,7 +42,7 @@ const home = () => {
     <Link className="stake" to="/stake">Stake</Link>
     <Link className="mint" to="/mint">Mint</Link>
     </div>
-    <div className="footer">Made with  <img src="https://i.ibb.co/44ZjM2B/pngwing-com.png" alt="pngwing-com" className="love"/> WolfGang Team</div>
+    <div className="footer">Made with  <img src="https://i.ibb.co/44ZjM2B/pngwing-com.png" alt="pngwing-com" className="love"/> By WolfGang Team</div>
         {/* <li className="mintbox" onClick={(e) => {
                     e.preventDefault();
                     dispatch(connectM());
