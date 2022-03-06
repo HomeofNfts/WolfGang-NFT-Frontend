@@ -266,7 +266,7 @@ function Mint() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                WOLFGANG NFT is an exclusive collection of 1500 randomly generated NFTs on the Ethereum Blockchain.<br/>
+                WOLFGANG NFT is an exclusive collection of 5000 randomly generated NFTs on the BNB Chain Blockchain.<br/>
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
@@ -391,7 +391,7 @@ function Mint() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            {CONFIG.NETWORK.NAME} testnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
