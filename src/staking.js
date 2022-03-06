@@ -238,7 +238,7 @@ const Staking = () => {
                         <button 
                             className="btn"
                             onClick={claim}>
-                            CLAIM TT
+                            CLAIM WOLF
                         </button>
                     </div>
                     <div className="">
