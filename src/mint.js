@@ -145,7 +145,7 @@ function Mint() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit NFT marketplace to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchDataM(blockchain.account));
